@@ -7,3 +7,5 @@ Functionalities:
 - Mark task as completed
 - Delete a task
 - Save tasks to a file
+
+Added new line.
