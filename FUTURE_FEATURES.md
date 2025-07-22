@@ -4,7 +4,8 @@
     - basically, have in the menu the option -d :delete a task (d - all to delete all tasks)
     - if the user enters d -all, require an explicit yes to delete all tasks
 
-- shortened menu to be displayed after the inital menu, written like this
+- shortened menu to be displayed after the inital menu
+    - example:
 
 a -add a task   c -complete a task  d -delete a task (d -all)   v -view all tasks
 s -export       x -exit

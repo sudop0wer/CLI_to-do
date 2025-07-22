@@ -8,4 +8,4 @@ Functionalities:
 - Delete a task
 - Save tasks to a file
 
-Added new line.
+Tested the commit --ammend command.
