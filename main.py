@@ -1,12 +1,13 @@
 from datetime import datetime
 import logging
+import os
 
 
 logger = logging.getLogger("to-do")
 logger.setLevel(logging.INFO)
 
-log_path = "/home/ctuglea/python/CLI_to-do/log/"
-handler = logging.FileHandler(f"{log_path}to-do_{datetime.today().strftime('%d-%m-%Y')}.log")
+log_path = os.getcwd()
+handler = logging.FileHandler(f"{log_path}/log/to-do_{datetime.today().strftime('%d-%m-%Y')}.log")
 handler.setLevel(logging.INFO)
 
 formatter = logging.Formatter("%(levelname)s: %(asctime)s: %(message)s")
